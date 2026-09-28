@@ -3,7 +3,9 @@ export { SalaryCommitmentClient } from "./SalaryCommitmentClient";
 export { ProofVerifierClient } from "./ProofVerifierClient";
 export { PaymentExecutorClient } from "./PaymentExecutorClient";
 export { AuditHoldClient } from "./AuditHoldClient";
+export { DelegatedApproverClient } from "./DelegatedApproverClient";
 export type { ReleaseAuditHoldResponse } from "./AuditHoldClient";
+export type { AssignDelegatedApproverResponse } from "./DelegatedApproverClient";
 export type { ExecutePaymentResponse, SchedulePaymentResponse } from "./PaymentExecutorClient";
 export type {
   ClientOptions,

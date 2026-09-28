@@ -3,3 +3,4 @@ export * from "./types";
 export * from "./roles";
 export * from "./approvalExpiry";
 export * from "./roleTransfer";
+export * from "./delegatedApprover";
